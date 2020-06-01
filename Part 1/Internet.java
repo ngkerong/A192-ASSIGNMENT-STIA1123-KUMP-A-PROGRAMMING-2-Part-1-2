@@ -52,17 +52,17 @@ public class Internet{
                     break;
                 case 2:
                     
-                    System.out.println(wifi1.display() + wifi1.special("Wired"));
+                    System.out.println(wifi1.display() + wifi2.special("Wired"));
                     
                     break;
                 case 3:
                 
-                    System.out.println(wifi1.display() + wifi1.special("Wireless"));
+                    System.out.println(wifi1.display() + wifi3.special("Wireless"));
                     
                     break;
                 default:
                     
-                    System.out.println(wifi1.display() + wifi1.special("Wireless"));
+                    System.out.println(wifi1.display() + wifi4.special("Wireless"));
                     
                     break;
             }
